@@ -33,9 +33,9 @@ data = datetime.datetime.now()
 
 url = 'http://10.10.220.66/Olos/Login.aspx'
 campo_login = '//*[@id="UserTxt"]'
-login = 'python_andre' #python_andre - andre_lucas
+login = 'Login_teste'
 campo_senha = '//*[@id="Password"]'
-senha = 'olos123'
+senha = 'senha_teste'
 
 navegador.get(url)
 navegador.find_element(By.XPATH, campo_login).send_keys(login)      
